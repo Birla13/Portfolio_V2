@@ -8,7 +8,6 @@ export const name = "Deepanshi Birla";
 export const emailId = "deepsbirla13@gmail.com";
 
 export const navItems = [
-    { name: 'Home', href: '#' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
@@ -213,20 +212,20 @@ export const contactInfo = [
     {
         icon: <SiLinkedin className="w-6 h-6" />,
         label: "Linkedin",
-        value: "Connect on LinkedIn",
-        href: "https://www.linkedin.com/in/deepanshi-birla-66a573218/"
+        value: "Let's Talk",
+        href: "https://www.linkedin.com/in/deepanshibirla/"
     }
 ];
 
 export const behanceLink = "https://www.behance.net/deepanshibirla/";
 
 export const socialLinks = [
-    {
-        icon: <SiLinkedin className="w-6 h-6" />,
-        label: "LinkedIn",
-        href: "https://www.linkedin.com/in/deepanshibirla/",
-        color: "hover:bg-blue-600"
-    },
+    // {
+    //     icon: <SiLinkedin className="w-6 h-6" />,
+    //     label: "LinkedIn",
+    //     href: "https://www.linkedin.com/in/deepanshibirla/",
+    //     color: "hover:bg-blue-600"
+    // },
     {
         icon: <SiBehance className="w-6 h-6" />,
         label: "Behance",

@@ -92,9 +92,9 @@ const Navigation = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold text-gray-900">
+          <a href="#" className="text-2xl font-bold text-gray-900">
             {name}
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
