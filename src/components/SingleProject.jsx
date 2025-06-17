@@ -9,7 +9,7 @@ export default function SingleProject({ project }) {
       className="bg-white rounded-3xl p-6 card-hover h-full flex flex-col relative"
     >
       {/* Project Image/Icon */}
-      <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl h-48 flex items-center justify-center mb-6 overflow-hidden">
+      <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl h-[25%] md:h-48 flex items-center justify-center mb-6 overflow-hidden">
         <img
           src={project.image}
           alt="Project Thumbnail"

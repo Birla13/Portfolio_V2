@@ -92,7 +92,7 @@ const Navigation = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <a href="#" className="text-2xl font-bold text-gray-900">
+          <a href="#home" className="text-2xl font-bold text-gray-900">
             {name}
           </a>
 

@@ -1,4 +1,4 @@
-import { BiAward, BiCodeAlt, BiPalette, BiPhone, BiTrendingUp } from 'react-icons/bi';
+import { BiAward, BiCodeAlt, BiPalette, BiTrendingUp } from 'react-icons/bi';
 import { GoPeople } from 'react-icons/go';
 import { MdOutlineEmail } from 'react-icons/md';
 import { SiBehance, SiGithub, SiLinkedin } from "react-icons/si";

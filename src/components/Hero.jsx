@@ -7,7 +7,7 @@ import { behanceLink, heroData } from "../data.js";
 const Hero = () => {
   return (
     <section
-      id="hero"
+      id="home"
       className="section-padding min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white"
     >
       <div className="container-custom animate-fade-in">
