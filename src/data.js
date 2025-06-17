@@ -249,5 +249,5 @@ export const collaborationServices = [
 
 // Resume Download Data
 export const resumeData = {
-    downloadUrl: "https://drive.google.com/file/d/1Hp8IoPS68NHyUUB0i1XIZHflv5CuWgKI/view?usp=drive_link",
+    downloadUrl: "https://drive.google.com/file/d/1VzXrv4z7NiW9O-bUZ17RNeun_bfS9nZl/view?usp=drive_link",
 }; 

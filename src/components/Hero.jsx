@@ -16,7 +16,8 @@ const Hero = () => {
           <div className="text-left">
             {/* Main Heading */}
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Hi, I'm <span className="gradient-text">{heroData.name}</span>
+              Hi, I'm <br />
+              <span className="gradient-text">{heroData.name}</span>
             </h1>
 
             {/* Description */}
