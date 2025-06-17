@@ -1,6 +1,4 @@
 import React from "react";
-import { BiRightArrowAlt } from "react-icons/bi";
-import { Link } from "react-router-dom";
 import { projects } from "../data.js";
 import SingleProject from "./SingleProject.jsx";
 
