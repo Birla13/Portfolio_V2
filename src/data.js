@@ -1,7 +1,7 @@
 import { BiAward, BiCodeAlt, BiPalette, BiTrendingUp } from 'react-icons/bi';
 import { GoPeople } from 'react-icons/go';
 import { MdOutlineEmail } from 'react-icons/md';
-import { SiBehance, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiBehance, SiDribbble, SiGithub, SiLinkedin } from "react-icons/si";
 
 // Navigation Data
 export const name = "Deepanshi Birla";
@@ -236,7 +236,14 @@ export const socialLinks = [
         icon: <SiGithub className="w-6 h-6" />,
         label: "GitHub",
         href: "https://github.com/birla13",
-        color: "hover:bg-gray-800"
+        color: "hover:bg-gray-500"
+    },
+    {
+        icon: <SiDribbble className="w-6 h-6" />,
+        label: "Dribbble",
+        href: "https://dribbble.com/Deepanshi13",
+        color: "hover:bg-gray-500"
+
     }
 ];
 
