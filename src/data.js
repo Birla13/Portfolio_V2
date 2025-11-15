@@ -1,7 +1,7 @@
 import { BiAward, BiCodeAlt, BiPalette, BiTrendingUp } from 'react-icons/bi';
 import { GoPeople } from 'react-icons/go';
 import { MdOutlineEmail } from 'react-icons/md';
-import { SiBehance, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiDribbble, SiGithub, SiLinkedin } from "react-icons/si";
 
 // Navigation Data
 export const name = "Deepanshi Birla";
@@ -37,7 +37,7 @@ export const projects = [
         ],
         image: "/travel.png",
         links: {
-            live: "https://www.behance.net/gallery/226956133/Dashboard-UX-Audit"
+            live: "https://dribbble.com/shots/26038049-Dashboard-UX-Audit?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Dashboard%20UX%20Audit&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Dashboard%20UX%20Audit&utm_medium=Social_Share"
         },
         isFeatured: true
     },
@@ -53,7 +53,7 @@ export const projects = [
         ],
         image: "/ux_fixes.png",
         links: {
-            live: "https://www.behance.net/gallery/227223473/Recipe-App-UX-Fixes-Final-Design"
+            live: "https://dribbble.com/shots/26098675-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
         },
         isFeatured: true
     },
@@ -69,7 +69,7 @@ export const projects = [
         ],
         image: "/portfolio.png",
         links: {
-            live: "https://www.behance.net/gallery/226948475/Designer-Portfolio-UI-UX-Product-Thinking"
+            live: "https://dribbble.com/shots/26098675-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
         },
         isFeatured: false
     },
@@ -85,7 +85,7 @@ export const projects = [
         ],
         image: "/ux_audit.png",
         links: {
-            live: "https://www.behance.net/gallery/227142643/Recipe-App-UX-Audit-Recommendations"
+            live: "https://dribbble.com/shots/26094361-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
         },
         isFeatured: true
     },
@@ -103,7 +103,7 @@ export const projects = [
         image: "/covid.png",
         links: {
             github: "https://github.com/Birla13/Covid-Safety-Website",
-            live: "https://birla13.github.io/Covid-Safety-Website/"
+            live: "https://dribbble.com/shots/26098675-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
         },
         isFeatured: false
     },
@@ -217,7 +217,7 @@ export const contactInfo = [
     }
 ];
 
-export const behanceLink = "https://www.behance.net/deepanshibirla/";
+export const dribbbleLink = "https://dribbble.com/Deepanshi13";
 
 export const socialLinks = [
     // {
@@ -227,9 +227,9 @@ export const socialLinks = [
     //     color: "hover:bg-blue-600"
     // },
     {
-        icon: <SiBehance className="w-6 h-6" />,
-        label: "Behance",
-        href: "https://www.behance.net/deepanshibirla/",
+        icon: <SiDribbble className="w-6 h-6" />,
+        label: "Dribble",
+        href: "https://dribbble.com/Deepanshi13",
         color: "hover:bg-blue-500"
     },
     {

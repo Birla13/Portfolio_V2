@@ -2,7 +2,7 @@ import React from "react";
 import { LuLink } from "react-icons/lu";
 
 import { Link } from "react-router-dom";
-import { behanceLink, heroData } from "../data.js";
+import { dribbbleLink, heroData } from "../data.js";
 
 const Hero = () => {
   return (
@@ -35,12 +35,12 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Link
-                to={behanceLink}
+                to={dribbbleLink}
                 target="_blank"
                 className="bg-gray-900 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition-colors duration-200 flex items-center gap-2 justify-center sm:justify-start"
               >
                 <LuLink size={20} />
-                Behance
+                Dribbble
               </Link>
               <a
                 href="#contact"
