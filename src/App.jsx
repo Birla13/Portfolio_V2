@@ -16,7 +16,7 @@ const MainPortfolio = () => (
     <Hero />
     <Experience />
     <Projects />
-    <Skills />
+    {/* <Skills /> */}
     <Resume />
     <Contact />
   </>

@@ -8,15 +8,11 @@ const Projects = () => {
   return (
     <section id="projects" className="section-padding bg-gray-50">
       <div className="container-custom">
-        <div className="text-center mb-16">
+        <div className="text-center mb-4">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
             Projects
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore a selection of my projects—each one driven by research,
-            design thinking, and a commitment to delivering user-first solutions
-            across web and mobile.
-          </p>
+          /
         </div>
 
         {/* Responsive Grid Layout - Only Featured Projects */}

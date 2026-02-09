@@ -10,7 +10,7 @@ export const emailId = "deepsbirla13@gmail.com";
 export const navItems = [
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
+    // { name: 'Skills', href: '#skills' },
     { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
 ];
@@ -27,14 +27,30 @@ export const heroData = {
 export const projects = [
     {
         id: 1,
+        title: "UEHD - Universal Enterprises Hoist Division",
+        tools: ["Figma", "Framer"],
+        description: "Created a high-performance website for an industrial company, focusing on a clean layout and smooth navigation. Used Figma and Framer to build a custom product gallery that makes it easier for users to browse and contact the business.",
+        // highlights: [
+        //     "Conducted a heuristic evaluation to pinpoint friction in navigation and content hierarchy",
+        //     "Recommended clearer categorization, improved ingredient visibility, and simplified recipe browsing",
+        //     "Created wireframes and restructured screens to guide users smoothly from discovery to cooking"
+        // ],
+        image: "/UEHDpng.png",
+        links: {
+            live: "https://www.uehd.co.in/"
+        },
+        isFeatured: true
+    },
+    {
+        id: 2,
         title: "Travel Website - Dashboard UX Audit",
         tools: ["Figma", "ChatGPT"],
         description: "Audited and redesigned a travel booking dashboard to improve navigation, booking clarity, and visual hierarchy. The goal was to reduce friction in key user flows and make critical data more accessible.",
-        highlights: [
-            "Identified UX gaps in navigation, data presentation, and task completion using heuristic analysis",
-            "Proposed solutions like grouping related metrics, consistent chart styles, and clearer status indicators",
-            "Created annotated wireframes and redesigned screens to improve readability and guide user actions"
-        ],
+        // highlights: [
+        //     "Identified UX gaps in navigation, data presentation, and task completion using heuristic analysis",
+        //     "Proposed solutions like grouping related metrics, consistent chart styles, and clearer status indicators",
+        //     "Created annotated wireframes and redesigned screens to improve readability and guide user actions"
+        // ],
         image: "/travel.png",
         links: {
             live: "https://dribbble.com/shots/26038049-Dashboard-UX-Audit?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Dashboard%20UX%20Audit&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Dashboard%20UX%20Audit&utm_medium=Social_Share"
@@ -42,15 +58,15 @@ export const projects = [
         isFeatured: true
     },
     {
-        id: 4,
+        id: 3,
         title: "Recipe App - UX Fixes & Final Design",
         tools: ["Figma", "ChatGPT"],
         description: "Redesigned the recipe app by implementing key UX fixes and delivering polished high-fidelity screens focused on better content clarity, readability, and layout flow.",
-        highlights: [
-            "Reworked navigation and filtering to simplify category access",
-            "Enhanced visual hierarchy with bold imagery and clean typography",
-            "Designed final UI screens with improved structure and consistent component styling"
-        ],
+        // highlights: [
+        //     "Reworked navigation and filtering to simplify category access",
+        //     "Enhanced visual hierarchy with bold imagery and clean typography",
+        //     "Designed final UI screens with improved structure and consistent component styling"
+        // ],
         image: "/ux_fixes.png",
         links: {
             live: "https://dribbble.com/shots/26098675-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
@@ -58,34 +74,18 @@ export const projects = [
         isFeatured: true
     },
     {
-        id: 2,
+        id: 4,
         title: "Portfolio - UI/UX Design",
         tools: ["Figma"],
         description: "Crafted a personal portfolio that not only showcases visual design skills but also emphasizes product thinking, user empathy, and a process-driven design approach.",
-        highlights: [
-            "Structured case studies using the design thinking model (empathize to test)",
-            "Focused on user pain points, business goals, and storytelling in each project",
-            "Built cohesive visuals and layout for clarity, confidence, and navigation ease"
-        ],
+        // highlights: [
+        //     "Structured case studies using the design thinking model (empathize to test)",
+        //     "Focused on user pain points, business goals, and storytelling in each project",
+        //     "Built cohesive visuals and layout for clarity, confidence, and navigation ease"
+        // ],
         image: "/portfolio.png",
         links: {
-            live: "https://dribbble.com/shots/26098675-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
-        },
-        isFeatured: false
-    },
-    {
-        id: 3,
-        title: "Recipe App - UX Audit & Recommendations",
-        tools: ["Figma", "ChatGPT"],
-        description: "Evaluated an existing recipe app to identify usability issues and provide targeted improvements for better user flow, accessibility, and discoverability of content.",
-        highlights: [
-            "Conducted a heuristic evaluation to pinpoint friction in navigation and content hierarchy",
-            "Recommended clearer categorization, improved ingredient visibility, and simplified recipe browsing",
-            "Created wireframes and restructured screens to guide users smoothly from discovery to cooking"
-        ],
-        image: "/ux_audit.png",
-        links: {
-            live: "https://dribbble.com/shots/26094361-Recipe-App-UX-Audit-Recommendations?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Recipe%20App%20UX%20Audit%20%26%20Recommendations&utm_medium=Social_Share"
+            live: "https://dribbble.com/shots/26041329-Designer-Portfolio-UI-UX-Product-Thinking?utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Designer%20Portfolio%20%E2%80%93%20UI%2C%20UX%20%26%20Product%20Thinking&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deepanshi13&utm_content=Designer%20Portfolio%20%E2%80%93%20UI%2C%20UX%20%26%20Product%20Thinking&utm_medium=Social_Share"
         },
         isFeatured: true
     },
@@ -95,11 +95,11 @@ export const projects = [
         title: "Knowledge Shields - COVID Safety Website",
         tools: ["Figma", "HTML", "CSS", "JavaScript"],
         description: "Built a responsive awareness website to educate users about COVID-19 symptoms, prevention, and transmission. Included a designed section for real-time stats simulation.",
-        highlights: [
-            "Designed clean, mobile-first layout for easier readability and quick info access",
-            "Created preventive sections covering hygiene, distancing, and vaccination",
-            "Simulated live COVID-19 stats section for future API integration possibility"
-        ],
+        // highlights: [
+        //     "Designed clean, mobile-first layout for easier readability and quick info access",
+        //     "Created preventive sections covering hygiene, distancing, and vaccination",
+        //     "Simulated live COVID-19 stats section for future API integration possibility"
+        // ],
         image: "/covid.png",
         links: {
             github: "https://github.com/Birla13/Covid-Safety-Website",
@@ -112,17 +112,17 @@ export const projects = [
         title: "Portfolio",
         tools: ["Figma", "React", "HTML", "CSS", "JavaScript"],
         description: "A sleek, responsive React-based personal portfolio showcasing projects, skillset, and professional background.",
-        highlights: [
-            "Fast, modular, and reusable components (navigation, project cards, contact form)",
-            "Seamless transitions across desktop, tablet, and mobile devices",
-            "Production-ready build with hashed filenames for cache control"
-        ],
+        // highlights: [
+        //     "Fast, modular, and reusable components (navigation, project cards, contact form)",
+        //     "Seamless transitions across desktop, tablet, and mobile devices",
+        //     "Production-ready build with hashed filenames for cache control"
+        // ],
         image: "/portfolio_react.png",
         links: {
             github: "https://github.com/Birla13/Deepanshi-Portfolio",
             live: "https://deepanshi-portfolio-gamma.vercel.app/"
         },
-        isFeatured: true
+        isFeatured: false
     }
 ];
 
@@ -237,14 +237,15 @@ export const socialLinks = [
         label: "GitHub",
         href: "https://github.com/birla13",
         color: "hover:bg-gray-500"
-    },
-    {
-        icon: <SiDribbble className="w-6 h-6" />,
-        label: "Dribbble",
-        href: "https://dribbble.com/Deepanshi13",
-        color: "hover:bg-gray-500"
-
     }
+    // ,
+    // {
+    //     icon: <SiDribbble className="w-6 h-6" />,
+    //     label: "Dribbble",
+    //     href: "https://dribbble.com/Deepanshi13",
+    //     color: "hover:bg-gray-500"
+
+    // }
 ];
 
 export const collaborationServices = [
@@ -256,5 +257,5 @@ export const collaborationServices = [
 
 // Resume Download Data
 export const resumeData = {
-    downloadUrl: "https://drive.google.com/file/d/1VzXrv4z7NiW9O-bUZ17RNeun_bfS9nZl/view?usp=drive_link",
+    downloadUrl: "https://drive.google.com/file/d/1WBdP6vvq6CRw_SfYYYMsrVAlaW0YV-gJ/view?usp=drive_link",
 }; 
