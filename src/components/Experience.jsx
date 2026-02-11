@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCalendar } from "react-icons/fa";
 import { achievements, experienceData } from "../data.js";
 

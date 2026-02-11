@@ -1,4 +1,3 @@
-import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import {
   collaborationServices,
@@ -86,9 +85,7 @@ const Contact = () => {
         </div>
 
         <div className="border-t border-white/20 mt-16 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2025 Deepanshi
-          </p>
+          <p className="text-gray-400">© 2025 Deepanshi</p>
         </div>
       </div>
     </section>

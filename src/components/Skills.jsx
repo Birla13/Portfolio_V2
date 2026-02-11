@@ -1,4 +1,3 @@
-import React from "react";
 import { skillCategories } from "../data.js";
 
 const Skills = () => {

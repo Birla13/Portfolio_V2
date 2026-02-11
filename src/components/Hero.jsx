@@ -1,4 +1,3 @@
-import React from "react";
 import { LuLink } from "react-icons/lu";
 
 import { Link } from "react-router-dom";
