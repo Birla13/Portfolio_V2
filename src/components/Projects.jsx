@@ -11,7 +11,6 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
             Projects
           </h2>
-          /
         </div>
 
         {/* Responsive Grid Layout - Only Featured Projects */}
